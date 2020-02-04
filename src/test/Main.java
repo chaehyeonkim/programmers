@@ -7,9 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 		int answers[]= {1,2,3,4,5};
 		int ans[]=solution(answers);
-		for(int i=0;i<ans.length;i++) {
-			System.out.println(ans[i]);
-		}
+		/*
+		 * for(int i=0;i<ans.length;i++) { System.out.println(ans[i]); }
+		 */
 		
 
 	}

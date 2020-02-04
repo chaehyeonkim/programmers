@@ -9,11 +9,7 @@ public class Main {
 		System.out.println(Arrays.toString(commands));
 		int answer[]=solution(array,commands);
 		System.out.println(Arrays.toString(answer));
-		/*
-		 * String [] participant= {"leo", "kiki", "eden"}; String [] completion=
-		 * {"eden","kiki"}; String name=""; name=solution(participant,completion);
-		 * System.out.println(name);
-		 */
+		
 
 	}
 	public static int[] solution(int[] array, int[][] commands) {
@@ -38,15 +34,6 @@ public class Main {
         }
         return answer;
     }
-	/*
-	 * private static String solution(String[] participant, String[] completion) {
-	 * String answer = ""; for(int i=0;i<participant.length;i++) { for(int
-	 * j=0;j<completion.length;j++) { if(participant[i].equals(completion[j])) {
-	 * completion[j]="0"; participant[i]="0"; break; } } } for(int
-	 * i=0;i<participant.length;i++) { if(!participant[i].equals("0")) return
-	 * answer=participant[i]; }
-	 * 
-	 * return answer; }
-	 */
+	
 
 }
